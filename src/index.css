@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth fonts & base body styling */
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; }
+body { @apply bg-black text-white; }
